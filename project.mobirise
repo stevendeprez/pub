@@ -23,7 +23,7 @@
     "publishType": "github",
     "publishPath": "file:///Users/Steven/Desktop/Website%20Beeldbanken",
     "versionFirst": "3.9.0",
-    "uniqCompNum": 19,
+    "uniqCompNum": 20,
     "versionPublish": "3.9.0"
   },
   "pages": {
@@ -166,7 +166,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/20061604-2000x2837-36.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blind-date-2000x2803-17.png",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -183,7 +183,7 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "Steven Deprez<br><br>",
+          "title": "<br><br>",
           "text": "<div style=\"text-align: right;\"><br></div><div style=\"text-align: right;\"><br></div>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
         }
