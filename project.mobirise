@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "steven",
-    "currentPage": "index.html",
+    "currentPage": "Tekeningen.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -61,10 +61,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "1.45rem"
+              "font-size": "1.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.570rem"
+              "font-size": "1.787rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -96,7 +96,7 @@
           "_anchor": "ext_menu-3",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.45",
+            "fontSize": "1.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -163,10 +163,10 @@
           },
           "_anchor": "header1-0",
           "_params": {
-            "parallax": true,
+            "parallax": false,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/blind-date-2000x2803-17.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2016-12-02-om-19-2000x2000-60.png",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
@@ -366,21 +366,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#ff0000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#ff0000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "1.45rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "1.570rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -395,7 +395,7 @@
               "background": "#0900b1"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -490,6 +490,96 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen3-2000x1480-13-2000x1480-85.jpg",
                 "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen3-2000x1480-13.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen8-2000x2806-30-2000x2806-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen8-2000x2806-30.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen9-2000x2779-89-2000x2779-84.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen9-2000x2779-89.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen16-2000x3000-21-2000x3000-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen16-2000x3000-21.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen15-2000x2749-82-2000x2749-71.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen15-2000x2749-82.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen4-2000x1635-26-2000x1635-31.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen4-2000x1635-26.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen13-2000x2756-44-2000x2756-71.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen13-2000x2756-44.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen20-2000x2744-73-2000x2744-32.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen20-2000x2744-73.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen17-2000x1451-4-2000x1451-63.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen17-2000x1451-4.jpg",
+                "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen12-2000x3229-23-2000x3229-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen12-2000x3229-23.jpg",
                 "caption": "gemaakt heb.",
                 "active": true
               }
