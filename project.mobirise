@@ -61,10 +61,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "1.65rem"
+              "font-size": "1.5rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.787rem"
+              "font-size": "1.624rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -96,7 +96,7 @@
           "_anchor": "ext_menu-3",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.65",
+            "fontSize": "1.5",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -166,7 +166,7 @@
             "parallax": false,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2016-12-02-om-19-2000x2000-60.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2016-12-02-om-19-2000x2000-12.png",
             "bgColor": "#2969b0",
             "bgColorRadio": false,
             "bgVideo": {
