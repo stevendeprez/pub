@@ -166,8 +166,8 @@
             "parallax": false,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2016-12-02-om-19-2000x2000-12.png",
-            "bgColor": "#2969b0",
+            "bgImage": "@PROJECT_PATH@/assets/images/scan-31-2000x2766-42.png",
+            "bgColor": "#7e9b9f",
             "bgColorRadio": false,
             "bgVideo": {
               "width": 1280,
@@ -178,7 +178,7 @@
             "overlay": true,
             "overlayOpacity": "0",
             "overlayColor": "#000000",
-            "contentAlign": "right",
+            "contentAlign": "left",
             "showTitle": true,
             "showText": true,
             "showButtons": false
