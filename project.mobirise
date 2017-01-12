@@ -20,18 +20,16 @@
         "isScrollToTopButton": true
       }
     },
-    "publishType": "github",
-    "publishPath": "file:///Users/Steven/Desktop/Website%20Beeldbanken",
     "versionFirst": "3.9.0",
-    "uniqCompNum": 20,
-    "versionPublish": "3.9.0"
+    "uniqCompNum": 32,
+    "versionPublish": "3.10.3"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "index",
+        "meta_descr": "Deprez Steven, foto scan zonsverduistering jaar 2000",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -61,10 +59,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "1.5rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.624rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -96,7 +94,7 @@
           "_anchor": "ext_menu-3",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.5",
+            "fontSize": "0.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -104,10 +102,10 @@
             },
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
@@ -130,7 +128,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -166,7 +164,7 @@
             "parallax": false,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/20061604-2000x2837-36-2000x2837-22.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/fotos-publicatie15-2000x1333-64.jpg",
             "bgColor": "#7e9b9f",
             "bgColorRadio": false,
             "bgVideo": {
@@ -178,7 +176,7 @@
             "overlay": true,
             "overlayOpacity": "0",
             "overlayColor": "#000000",
-            "contentAlign": "left",
+            "contentAlign": "right",
             "showTitle": true,
             "showText": true,
             "showButtons": false
@@ -192,165 +190,7 @@
     "about..html": {
       "settings": {
         "title": "Over mij",
-        "meta_descr": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
-            },
-            ".link": {
-              "font-size": "0.85rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#06007e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#0800a2!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#0900b1"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-4",
-          "_params": {
-            "bgColor": "#0900b1",
-            "fontSize": "1.45",
-            "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
-            },
-            "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": false,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box6",
-          "_anchor": "msg-box6-5",
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/XLH5sylIiPw?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#28324e",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/pluimpjes-1400x1815-4.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "",
-          "text": "Ik ben Steven Deprez.<br>Ik studeer Grafisch Ontwerp aan<br> LUCA School of Arts&nbsp;in Gent.<br>Ik ben niet goed in ontwerpen maar ik wil het leren.&nbsp;<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        }
-      ]
-    },
-    "Tekeningen.html": {
-      "settings": {
-        "title": "Tekeningen"
+        "meta_descr": "Beschrijving Deprez Steven, foto scan pluimpjes vogel, video vogel"
       },
       "components": [
         {
@@ -377,10 +217,150 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "1.45rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.570rem"
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#06007e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#0800a2!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#0900b1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ff0000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#000000!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4",
+          "_params": {
+            "bgColor": "#0900b1",
+            "fontSize": "0.65",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ff0000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000",
+              "text-align": "left",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-r",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-01-09-om-00-2000x1406-7.png",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "SOLID COLOR INTRO",
+          "text": "My name is Steven Deprez.<br>I study graphic design in Ghent, at Luca School of Arts.<br>It is now my second year, and still my drift to create stuff is getting bigger.<br>For me it's very important to get in touch with another's work, in every field of art and design. I love to work in a chaotic workplace, getting involved with&nbsp;<br>too much content and make myself clear what I can filter. It's imperfect work that makes it so interesting, with a lot of play and fun <br>between typography &amp; image.<br>I don't see myself as a designer yet, but I'm trying my best.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
+        }
+      ]
+    },
+    "Tekeningen.html": {
+      "settings": {
+        "title": "Tekeningen",
+        "meta_descr": "Geen tekst, Tekeningen vrij, tekeningen model"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ff0000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ff0000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ff0000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -412,7 +392,7 @@
           "_anchor": "ext_menu-6",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.45",
+            "fontSize": "0.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -420,10 +400,10 @@
             },
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
@@ -442,7 +422,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -450,8 +430,8 @@
           ],
           "_name": "gallery1",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "3",
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "images": [
               {
                 "tags": "Responsive",
@@ -581,16 +561,26 @@
                 "thumb": "@PROJECT_PATH@/assets/images/beeldbankentekeningen12-2000x3229-23-2000x3229-66.jpg",
                 "image": "@PROJECT_PATH@/assets/images/beeldbankentekeningen12-2000x3229-23.jpg",
                 "caption": "gemaakt heb.",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fotos-publicatie15-2000x1333-6-800x533-48.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fotos-publicatie15-2000x1333-6.jpg",
+                "caption": "gemaakt heb.",
                 "active": true
               }
             ],
-            "spacing": "1",
+            "spacing": "2",
             "showText": false,
             "filter": true,
-            "bgColor": "#000000",
+            "bgColor": "#ffffff",
             "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            "fullWidth": true,
+            "showBullets": false
           },
           "_anchor": "gallery1-7",
           "articleLayout": false,
@@ -600,7 +590,8 @@
     },
     "Vinyl.html": {
       "settings": {
-        "title": "Vinyl"
+        "title": "Vinyl",
+        "meta_descr": "Geen tekst, weergave alle beelden, weergave op aparte lagen"
       },
       "components": [
         {
@@ -616,21 +607,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#ff0000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#ff0000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -645,7 +636,7 @@
               "background": "#0900b1"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -662,7 +653,7 @@
           "_anchor": "ext_menu-8",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.45",
+            "fontSize": "0.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -670,10 +661,10 @@
             },
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
@@ -692,7 +683,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -748,7 +739,7 @@
             "spacing": "4",
             "showText": false,
             "filter": true,
-            "bgColor": "#1fbaa9",
+            "bgColor": "#ff7c00",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": true
@@ -761,7 +752,8 @@
     },
     "Hamburg.html": {
       "settings": {
-        "title": "Hamburg"
+        "title": "Hamburg",
+        "meta_descr": "Geen tekst, weergave alle beelden, weergave aparte lagen"
       },
       "components": [
         {
@@ -777,21 +769,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#ff0000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#ff0000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -806,7 +798,7 @@
               "background": "#0900b1"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -823,7 +815,7 @@
           "_anchor": "ext_menu-b",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.45",
+            "fontSize": "0.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -831,10 +823,10 @@
             },
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
@@ -853,7 +845,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -862,8 +854,8 @@
           ],
           "_name": "gallery2",
           "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
+            "paddingTop": "4",
+            "paddingBottom": "0",
             "images": [
               {
                 "tags": "VIER",
@@ -906,10 +898,10 @@
                 "active": true
               }
             ],
-            "spacing": "6",
+            "spacing": "4",
             "showText": false,
             "filter": false,
-            "bgColor": "#00a885",
+            "bgColor": "#ffffff",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": true
@@ -922,7 +914,8 @@
     },
     "Grap.html": {
       "settings": {
-        "title": "GRAP"
+        "title": "GRAP",
+        "meta_descr": "Geen tekst, afbeelding mop ontwerp"
       },
       "components": [
         {
@@ -938,21 +931,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#ff0000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#ff0000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -967,7 +960,7 @@
               "background": "#0900b1"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -984,7 +977,7 @@
           "_anchor": "ext_menu-d",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.45",
+            "fontSize": "0.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -992,10 +985,10 @@
             },
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
@@ -1014,7 +1007,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -1053,7 +1046,8 @@
     },
     "IstanbulEkspres.html": {
       "settings": {
-        "title": "Istanbul Ekpres"
+        "title": "Istanbul Ekpres",
+        "meta_descr": "Geen tekst, weergave alle beelden, weergave aparte lagen"
       },
       "components": [
         {
@@ -1069,21 +1063,21 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#ff0000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#ff0000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.65rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.704rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1098,7 +1092,7 @@
               "background": "#0900b1"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#ff0000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1115,7 +1109,7 @@
           "_anchor": "ext_menu-f",
           "_params": {
             "bgColor": "#0900b1",
-            "fontSize": "1.45",
+            "fontSize": "0.65",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -1123,10 +1117,10 @@
             },
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
+            "transparent": false,
+            "sticky": false,
             "logo": false,
-            "showBrand": true,
+            "showBrand": false,
             "collapsed": true,
             "hideButtons": true
           },
@@ -1145,7 +1139,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-photo mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Tekeningen<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Grap van formaat<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 45px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -1199,6 +1193,686 @@
           "_anchor": "gallery3-h",
           "articleLayout": false,
           "allItem": "All"
+        }
+      ]
+    },
+    "Kunstgeschiendenis.html": {
+      "settings": {
+        "title": "The New Medieval Panorama"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ff0000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ff0000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ff0000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#06007e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#0800a2!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#0900b1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ff0000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#000000!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-k",
+          "_params": {
+            "bgColor": "#0900b1",
+            "fontSize": "0.65",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ff0000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "happy",
+              "family": "et-line",
+              "link": "about..html",
+              "size": "45",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            },
+            ".lead P": {
+              "text-align": "center",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700",
+              "font-size": "16px",
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-o",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/fotos-publicatie1-2000x1333-49.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "The New Medieval Panorama",
+          "text": "<p>This is publication made for my course&nbsp;</p><p>Art History: history of the middle ages.&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-n",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/fotos-publicatie1-1400x933-99.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "In this illustrated story you'll see my interpretation of medieval scenes, coming from various topics during these centuries. I'm imagining those existing images and show how I view them, this from a different perspective in the work and with my touch. With the purpose of you as a spectator to do feel concerned with the scenes that are going on, as if you were in the middle of all it.<br>My images are based on the images from \"Middeleeuws Panorama\", by R. Bartlett and Ian Sutton. It's a publication with an A4 paper format, the original 30 drawings are A3 paper format.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            },
+            "P": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            "SPAN": {
+              "font-size": "36px"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-03-2000x1425-99-800x570-57.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-03-2000x1425-99.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-04-2000x1425-84-800x570-54.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-04-2000x1425-84.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-05-2000x1425-30-800x570-16.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-05-2000x1425-30.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-06-2000x1425-92-800x570-60.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-06-2000x1425-92.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-07-2000x1425-41-800x570-60.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-07-2000x1425-41.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-08-2000x1425-71-800x570-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-08-2000x1425-71.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-09-2000x1425-4-800x570-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-09-2000x1425-4.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-10-2000x1425-21-800x570-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-10-2000x1425-21.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-11-2000x1425-15-800x570-94.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-11-2000x1425-15.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-12-2000x1425-46-800x570-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-12-2000x1425-46.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-13-2000x1425-43-800x570-98.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-13-2000x1425-43.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-14-2000x1425-81-800x570-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-14-2000x1425-81.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-15-2000x1425-42-800x570-21.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-15-2000x1425-42.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-16-2000x1425-37-800x570-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-16-2000x1425-37.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-17-2000x1425-57-800x570-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-17-2000x1425-57.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-18-2000x1425-74-800x570-25.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-18-2000x1425-74.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-19-2000x1425-6-800x570-86.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-19-2000x1425-6.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-20-2000x1425-71-800x570-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-20-2000x1425-71.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-21-2000x1425-14-800x570-63.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-21-2000x1425-14.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-22-2000x1425-7-800x570-20.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-22-2000x1425-7.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-23-2000x1425-26-800x570-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-23-2000x1425-26.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-24-2000x1425-85-800x570-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-24-2000x1425-85.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-25-2000x1425-45-800x570-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-25-2000x1425-45.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-26-2000x1425-88-800x570-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-26-2000x1425-88.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-27-2000x1425-94-800x570-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-27-2000x1425-94.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-28-2000x1600-78-800x640-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-28-2000x1600-78.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-29-2000x1425-26-800x570-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-29-2000x1425-26.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-30-2000x1425-82-800x570-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-30-2000x1425-82.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-31-2000x1425-65-800x570-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-31-2000x1425-65.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-32-2000x1425-27-800x570-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kunstgesch-af-pagina-32-2000x1425-27.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "4",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#000000",
+            "filterBgColor": true,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-p",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "Herbariumhtml": {
+      "settings": {
+        "title": "Herbarium"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ff0000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ff0000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ff0000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.65rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.704rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#06007e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#0800a2!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#0900b1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ff0000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#000000!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-s",
+          "_params": {
+            "bgColor": "#0900b1",
+            "fontSize": "0.65",
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ff0000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "happy",
+              "family": "et-line",
+              "link": "about..html",
+              "size": "45",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-folder mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Hamburg.html\" aria-expanded=\"false\">Hamburg<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Tekeningen.html\" aria-expanded=\"false\">Drawings<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Grap.html\" aria-expanded=\"false\">Joke<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"IstanbulEkspres.html\" aria-expanded=\"false\">Istanbul Ekspres</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Vinyl.html\" aria-expanded=\"false\">Vinyl</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Kunstgeschiendenis.html\">The New Medieval Panorama</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Herbariumhtml\">A Neglected Herbarium</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about..html\"><span class=\"etl-icon icon-happy mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000",
+              "font-size": "25px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-v",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-01-09-om-00-2000x1419-5.png",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "A NEGLECTED HERBARIUM",
+          "text": "It's a project that I'm working on right now.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
         }
       ]
     }
