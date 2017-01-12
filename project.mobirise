@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "steven",
-    "currentPage": "index.html",
+    "currentPage": "Kunstgeschiendenis.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1372,7 +1372,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fotos-publicatie1-1400x933-99.jpg",
+              "src": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-01-12-om-13-1400x944-21.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -1855,7 +1855,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-01-09-om-00-2000x1419-5.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-01-09-om-00-2000x1419-46.png",
             "bgColor": "#efefef",
             "bgColorRadio": false,
             "bgVideo": {
