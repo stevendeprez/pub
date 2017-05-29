@@ -417,71 +417,67 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #000000;
 }
-#ext_menu-3 .hide-buttons .nav-btn {
+#ext_menu-1y .hide-buttons .nav-btn {
   display: none !important;
 }
-#ext_menu-3 .navbar-caption {
+#ext_menu-1y .navbar-caption {
   color: #ffffff;
 }
-#ext_menu-3 .navbar-toggler {
+#ext_menu-1y .navbar-toggler {
   color: #ff0000;
 }
-#ext_menu-3 .close-icon::before,
-#ext_menu-3 .close-icon::after {
+#ext_menu-1y .close-icon::before,
+#ext_menu-1y .close-icon::after {
   background-color: #ff0000;
 }
-#ext_menu-3 .link,
-#ext_menu-3 .dropdown-item {
+#ext_menu-1y .link,
+#ext_menu-1y .dropdown-item {
   color: #ff0000;
   font-family: 'Open Sans', sans-serif;
 }
-#ext_menu-3 .link {
-  font-size: 0.65rem;
+#ext_menu-1y .link {
+  font-size: 0.6rem;
 }
-#ext_menu-3 .dropdown-item,
-#ext_menu-3 .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+#ext_menu-1y .dropdown-item,
+#ext_menu-1y .nav-dropdown-sm .link {
+  font-size: 0.650rem;
 }
-#ext_menu-3 .link:hover,
-#ext_menu-3 .dropdown-item:hover,
-#ext_menu-3 .link:focus,
-#ext_menu-3 .dropdown-item:focus {
+#ext_menu-1y .link:hover,
+#ext_menu-1y .dropdown-item:hover,
+#ext_menu-1y .link:focus,
+#ext_menu-1y .dropdown-item:focus {
   color: #000000;
 }
-#ext_menu-3 .link[aria-expanded="true"],
-#ext_menu-3 .dropdown-menu {
+#ext_menu-1y .link[aria-expanded="true"],
+#ext_menu-1y .dropdown-menu {
   background: #000000;
 }
-#ext_menu-3 .nav-dropdown-sm .link:focus,
-#ext_menu-3 .nav-dropdown-sm .link:hover,
-#ext_menu-3 .nav-dropdown-sm .dropdown-item:focus,
-#ext_menu-3 .nav-dropdown-sm .dropdown-item:hover {
+#ext_menu-1y .nav-dropdown-sm .link:focus,
+#ext_menu-1y .nav-dropdown-sm .link:hover,
+#ext_menu-1y .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-1y .nav-dropdown-sm .dropdown-item:hover {
   background: #000000!important;
 }
-#ext_menu-3 .navbar,
-#ext_menu-3 .nav-dropdown-sm,
-#ext_menu-3 .nav-dropdown-sm .link[aria-expanded="true"],
-#ext_menu-3 .nav-dropdown-sm .dropdown-menu {
+#ext_menu-1y .navbar,
+#ext_menu-1y .nav-dropdown-sm,
+#ext_menu-1y .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-1y .nav-dropdown-sm .dropdown-menu {
   background: #000000;
 }
-#ext_menu-3 .bg-color.transparent .link {
+#ext_menu-1y .bg-color.transparent .link {
   color: #ff0000;
   transition: none;
 }
-#ext_menu-3 .bg-color.transparent.opened .link {
+#ext_menu-1y .bg-color.transparent.opened .link {
   transition: color 0.2s ease-in-out;
 }
-#ext_menu-3 .bg-color.transparent.opened .link:hover,
-#ext_menu-3 .bg-color.transparent.opened .link:focus {
+#ext_menu-1y .bg-color.transparent.opened .link:hover,
+#ext_menu-1y .bg-color.transparent.opened .link:focus {
   color: #000000;
 }
-#ext_menu-3 .link[aria-expanded="true"],
-#ext_menu-3 .dropdown-item[aria-expanded="true"] {
+#ext_menu-1y .link[aria-expanded="true"],
+#ext_menu-1y .dropdown-item[aria-expanded="true"] {
   color: #000000!important;
-}
-#header3-13 .mbr-section-title,
-#header3-13 .mbr-section-subtitle {
-  text-align: center;
 }
 #msg-box8-1s .mbr-section-title,
 #msg-box8-1s p {
@@ -493,8 +489,8 @@ h6,
   font-size: 25px;
 }
 #msg-box8-1s .mbr-section-title {
-  color: #f97352;
-  font-size: 72px;
+  color: #000000;
+  font-size: 100px;
 }
 #header3-16 .mbr-section-title,
 #header3-16 .mbr-section-subtitle {
@@ -562,11 +558,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-6 .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-6 .dropdown-item,
 #ext_menu-6 .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-6 .link:hover,
 #ext_menu-6 .dropdown-item:hover,
@@ -635,11 +631,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-8 .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-8 .dropdown-item,
 #ext_menu-8 .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-8 .link:hover,
 #ext_menu-8 .dropdown-item:hover,
@@ -708,11 +704,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-b .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-b .dropdown-item,
 #ext_menu-b .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-b .link:hover,
 #ext_menu-b .dropdown-item:hover,
@@ -778,11 +774,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-d .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-d .dropdown-item,
 #ext_menu-d .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-d .link:hover,
 #ext_menu-d .dropdown-item:hover,
@@ -851,11 +847,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-f .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-f .dropdown-item,
 #ext_menu-f .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-f .link:hover,
 #ext_menu-f .dropdown-item:hover,
@@ -931,11 +927,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-k .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-k .dropdown-item,
 #ext_menu-k .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-k .link:hover,
 #ext_menu-k .dropdown-item:hover,
@@ -1004,11 +1000,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-z .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-z .dropdown-item,
 #ext_menu-z .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-z .link:hover,
 #ext_menu-z .dropdown-item:hover,
@@ -1080,11 +1076,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-11 .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-11 .dropdown-item,
 #ext_menu-11 .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-11 .link:hover,
 #ext_menu-11 .dropdown-item:hover,
@@ -1150,11 +1146,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-1v .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-1v .dropdown-item,
 #ext_menu-1v .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-1v .link:hover,
 #ext_menu-1v .dropdown-item:hover,
@@ -1216,11 +1212,11 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #ext_menu-1y .link {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
 }
 #ext_menu-1y .dropdown-item,
 #ext_menu-1y .nav-dropdown-sm .link {
-  font-size: 0.704rem;
+  font-size: 0.650rem;
 }
 #ext_menu-1y .link:hover,
 #ext_menu-1y .dropdown-item:hover,

@@ -22,18 +22,18 @@
       }
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 73,
+    "uniqCompNum": 78,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "google-analytics": ""
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-99020024-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "index",
+        "title": "Steven Deprez",
         "meta_descr": "Steven Deprez, LUCA 2016-2017, Graphic Design, contact: steven_deprez@hotmail.com",
         "header_custom": "",
         "footer_custom": "",
@@ -64,10 +64,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -96,10 +96,10 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-3",
+          "_anchor": "ext_menu-1y",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -108,7 +108,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -133,27 +133,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-13",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#f97352",
-            "showMeta": false
-          },
-          "title": "<a href=\"Hamburg.html\" class=\"text-primary\">Hamburg</a>",
-          "meta": ""
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -166,8 +146,8 @@
               "font-size": "25px"
             },
             ".mbr-section-title": {
-              "color": "#f97352",
-              "font-size": "72px"
+              "color": "#000000",
+              "font-size": "100px"
             }
           },
           "_tags": [
@@ -180,7 +160,7 @@
             "paddingBottom": "5",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/filmposters-pagina-2000x2831.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/trump-pagina-7-2000x2629.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -469,7 +449,7 @@
     },
     "Tekeningen.html": {
       "settings": {
-        "title": "Tekeningen",
+        "title": "Drawings",
         "meta_descr": "Geen tekst, Tekeningen vrij, tekeningen model Steven Deprez, LUCA 2016-2017, Graphic Design, contact: steven_deprez@hotmail.com"
       },
       "components": [
@@ -497,10 +477,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -532,7 +512,7 @@
           "_anchor": "ext_menu-6",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -541,7 +521,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -562,7 +542,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -787,10 +767,10 @@
                 "active": true
               }
             ],
-            "spacing": "2",
+            "spacing": "1",
             "showText": false,
-            "filter": true,
-            "bgColor": "#ffffff",
+            "filter": false,
+            "bgColor": "#000000",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": false
@@ -856,10 +836,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -891,7 +871,7 @@
           "_anchor": "ext_menu-8",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -900,7 +880,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -921,7 +901,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -1066,10 +1046,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1101,7 +1081,7 @@
           "_anchor": "ext_menu-b",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -1110,7 +1090,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -1131,7 +1111,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -1245,7 +1225,7 @@
     },
     "Grap.html": {
       "settings": {
-        "title": "GRAP",
+        "title": "Joke",
         "meta_descr": "Geen tekst, afbeelding mop ontwerp Steven Deprez, LUCA 2016-2017, Graphic Design, contact: steven_deprez@hotmail.com"
       },
       "components": [
@@ -1273,10 +1253,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1308,7 +1288,7 @@
           "_anchor": "ext_menu-d",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -1317,7 +1297,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -1338,7 +1318,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -1356,7 +1336,7 @@
           "_anchor": "header3-1k",
           "_params": {
             "paddingTop": "5",
-            "paddingBottom": "0",
+            "paddingBottom": "2",
             "bgColor": "#000000",
             "showMeta": false
           },
@@ -1370,8 +1350,8 @@
           "_name": "slider3",
           "_params": {
             "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "0",
+            "paddingBottom": "4",
             "timeout": 5,
             "slides": [
               {
@@ -1453,10 +1433,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1488,7 +1468,7 @@
           "_anchor": "ext_menu-f",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -1497,7 +1477,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -1518,7 +1498,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -1676,10 +1656,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1711,7 +1691,7 @@
           "_anchor": "ext_menu-k",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -1720,7 +1700,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -1745,7 +1725,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -2122,7 +2102,7 @@
     },
     "page9.html": {
       "settings": {
-        "title": "Herbarium",
+        "title": "Herbarium Graphica",
         "meta_descr": "Steven Deprez, LUCA 2016-2017, Graphic Design, contact: steven_deprez@hotmail.com"
       },
       "components": [
@@ -2150,10 +2130,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -2185,7 +2165,7 @@
           "_anchor": "ext_menu-z",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -2194,7 +2174,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -2219,7 +2199,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -2381,7 +2361,7 @@
     },
     "Newspaper Trump.html": {
       "settings": {
-        "title": "NEWSPAPER TRUMP",
+        "title": "Newspaper Trump",
         "meta_descr": "Steven Deprez, LUCA 2016-2017, Graphic Design, contact: steven_deprez@hotmail.com"
       },
       "components": [
@@ -2409,10 +2389,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -2444,7 +2424,7 @@
           "_anchor": "ext_menu-11",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -2453,7 +2433,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -2478,7 +2458,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -2532,7 +2512,7 @@
           ],
           "_name": "gallery3",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": "1",
             "paddingBottom": 1,
             "images": [
               {
@@ -2696,7 +2676,7 @@
                 "active": true
               }
             ],
-            "spacing": 1,
+            "spacing": "4",
             "showText": false,
             "filter": false,
             "bgColor": "#000000",
@@ -2712,7 +2692,7 @@
     },
     "fantastic voyage.html": {
       "settings": {
-        "title": "interactive website ",
+        "title": "A Fantastic Voyage",
         "meta_descr": "Steven Deprez, Steven, Deprez, LUCA, Fantastic Voyage, Fantastic Voyage"
       },
       "components": [
@@ -2740,10 +2720,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -2775,7 +2755,7 @@
           "_anchor": "ext_menu-1v",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -2784,7 +2764,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -2809,7 +2789,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -2844,7 +2824,7 @@
           "_name": "gallery4",
           "_params": {
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "0",
             "images": [
               {
                 "tags": "Animated",
@@ -2934,73 +2914,13 @@
                 "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-6-van-12-2000x1576-800x630.jpg",
                 "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-6-van-12-2000x1576.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777-800x5110.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-4-van-12-2000x2831-800x1132.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-4-van-12-2000x2831.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-3-van-12-2000x2831-800x1132.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-3-van-12-2000x2831.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777-800x5110.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777-800x5110.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777-800x5110.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio-steven-deprez-18-mei-5-van-12-2000x12777.jpg",
-                "caption": "Type caption here",
                 "active": true
               }
             ],
-            "spacing": 1,
+            "spacing": "6",
             "showText": false,
             "filter": true,
-            "bgColor": "fff",
+            "bgColor": "#000000",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
@@ -3041,10 +2961,10 @@
               "font-family": "'Open Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.65rem"
+              "font-size": "0.6rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.704rem"
+              "font-size": "0.650rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -3076,7 +2996,7 @@
           "_anchor": "ext_menu-1y",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": "0.65",
+            "fontSize": "0.6",
             "fontName": {
               "name": "Open Sans",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
@@ -3085,7 +3005,7 @@
             "fontColor": "#ff0000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -3110,7 +3030,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 24, 0);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
