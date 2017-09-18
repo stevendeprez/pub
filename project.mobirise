@@ -19,11 +19,12 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": true
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 78,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 80,
+    "versionPublish": "4.3.0",
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
@@ -98,6 +99,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1y",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -106,13 +113,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -156,23 +157,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1s",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "5",
             "paddingBottom": "5",
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/trump-pagina-7-2000x2629.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": "0.5",
             "overlayColor": "#222222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": "0.5"
           },
           "title": "STEVEN DEPREZ",
           "text": "<p>.An online portfolio of a graphic design student in Ghent, settled in Ostend..</p>",
@@ -190,13 +191,103 @@
           "_name": "header3",
           "_anchor": "header3-16",
           "_params": {
+            "showMeta": false,
             "paddingTop": "1",
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "<a href=\"Tekeningen.html\" class=\"text-primary\">Drawings</a><br>",
           "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#000000"
+          },
+          "title": "PAPI MANDARIN",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-27"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#ffffff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-09-17-om-16.10.28-1532x1512.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-09-17-om-16.10.28-1532x1512-800x789.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-09-17-om-16.06.47-1532x1494.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafbeelding-2017-09-17-om-16.06.47-1532x1494-800x780.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/papi-plaat3-2000x1973.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/papi-plaat3-2000x1973-800x789.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/papiplaat-2000x1973.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/papiplaat-2000x1973-800x789.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery4",
+          "_anchor": "gallery4-26"
         },
         {
           "_styles": {
@@ -210,10 +301,10 @@
           "_name": "header3",
           "_anchor": "header3-17",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#2969b0",
-            "showMeta": false
+            "bgColor": "#2969b0"
           },
           "title": "<a href=\"Grap.html\" class=\"text-primary\">Joke</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -230,10 +321,10 @@
           "_name": "header3",
           "_anchor": "header3-18",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "<a href=\"IstanbulEkspres.html\" class=\"text-primary\">Istanbul Ekspres</a><br>",
           "meta": "By John Smith posted July 20, 2016"
@@ -250,10 +341,10 @@
           "_name": "header3",
           "_anchor": "header3-19",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fac51c",
-            "showMeta": false
+            "bgColor": "#fac51c"
           },
           "title": "<a href=\"Vinyl.html\" class=\"text-primary\">Music for Insomniacs</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -270,10 +361,10 @@
           "_name": "header3",
           "_anchor": "header3-1a",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "<a href=\"Kunstgeschiendenis.html\" class=\"text-primary\">The New Medieval Panorama</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -290,10 +381,10 @@
           "_name": "header3",
           "_anchor": "header3-1b",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#00a885",
-            "showMeta": false
+            "bgColor": "#00a885"
           },
           "title": "<a href=\"page9.html\" class=\"text-primary\">A Neglected Herbarium</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -310,10 +401,10 @@
           "_name": "header3",
           "_anchor": "header3-1c",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "<a href=\"Newspaper Trump.html\" class=\"text-primary\">Newspaper Trump</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -330,10 +421,10 @@
           "_name": "header3",
           "_anchor": "header3-1t",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#e25041",
-            "showMeta": false
+            "bgColor": "#e25041"
           },
           "title": "<a href=\"fantastic voyage.html\" class=\"text-primary\">Fantastic Voyage</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -350,10 +441,10 @@
           "_name": "header3",
           "_anchor": "header3-1u",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "<a href=\"Strangersonatrain.html\" class=\"text-primary\">Strangers on a Train</a>",
           "meta": "By John Smith posted July 20, 2016"
@@ -375,19 +466,19 @@
           },
           "_anchor": "form1-x",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": false,
             "labelsColor": "#000000",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f97352",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#f97352",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": false
+            "overlayOpacity": 0.5
           },
           "title": "Contact me",
           "subtitle": "",
@@ -435,13 +526,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -511,6 +602,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-6",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -519,13 +616,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -559,10 +650,10 @@
           "_name": "header3",
           "_anchor": "header3-1h",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#00a885",
-            "showMeta": false
+            "bgColor": "#00a885"
           },
           "title": "&nbsp;DRAWINGS",
           "meta": ""
@@ -573,8 +664,15 @@
           ],
           "_name": "gallery1",
           "_params": {
+            "showBullets": false,
+            "fullWidth": true,
+            "spacing": "1",
             "paddingTop": "0",
             "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Responsive",
@@ -766,14 +864,7 @@
                 "caption": "gemaakt heb.",
                 "active": true
               }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery1-7",
           "articleLayout": false,
@@ -794,13 +885,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -870,6 +961,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-8",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -878,13 +975,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -918,10 +1009,10 @@
           "_name": "header3",
           "_anchor": "header3-1j",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#ff0069",
-            "showMeta": false
+            "bgColor": "#ff0069"
           },
           "title": "MUSIC FOR INSOMNIACS",
           "meta": "By John Smith posted July 20, 2016"
@@ -933,8 +1024,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": false,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "4",
             "paddingBottom": "4",
+            "filterBgColor": false,
+            "bgColor": "#2969b0",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Front",
@@ -976,14 +1074,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#2969b0",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery2-9",
           "articleLayout": false,
@@ -1004,13 +1095,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -1080,6 +1171,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-b",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -1088,13 +1185,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1125,10 +1216,10 @@
           "_name": "header3",
           "_anchor": "header3-1g",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "0",
-            "bgColor": "#fac51c",
-            "showMeta": false
+            "bgColor": "#fac51c"
           },
           "title": "HAMBURG",
           "meta": "By John Smith posted July 20, 2016"
@@ -1140,8 +1231,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "4",
             "paddingTop": "4",
             "paddingBottom": "4",
+            "filterBgColor": false,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "VIER",
@@ -1183,14 +1281,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery2-i",
           "articleLayout": false,
@@ -1211,13 +1302,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -1287,6 +1378,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-d",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -1295,13 +1392,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1335,10 +1426,10 @@
           "_name": "header3",
           "_anchor": "header3-1k",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "2",
-            "bgColor": "#000000",
-            "showMeta": false
+            "bgColor": "#000000"
           },
           "title": "JOKE",
           "meta": "By John Smith posted July 20, 2016"
@@ -1350,8 +1441,11 @@
           "_name": "slider3",
           "_params": {
             "autoplay": true,
+            "fullScreen": false,
             "paddingTop": "0",
             "paddingBottom": "4",
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -1368,10 +1462,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "fullScreen": false,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider3-e",
           "articleLayout": false
@@ -1391,13 +1482,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -1467,6 +1558,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-f",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -1475,13 +1572,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1515,10 +1606,10 @@
           "_name": "header3",
           "_anchor": "header3-1l",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "1",
-            "bgColor": "#d14841",
-            "showMeta": false
+            "bgColor": "#d14841"
           },
           "title": "ISTANBUL EKSPRES",
           "meta": "By John Smith posted July 20, 2016"
@@ -1530,8 +1621,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "6",
             "paddingTop": "4",
             "paddingBottom": "4",
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Rembetiko",
@@ -1563,14 +1661,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "6",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-h",
           "articleLayout": false,
@@ -1591,13 +1682,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -1624,10 +1715,10 @@
           "_name": "header3",
           "_anchor": "header3-1n",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#000000",
-            "showMeta": false
+            "bgColor": "#000000"
           },
           "title": "Title with Solid Background Color",
           "meta": "By John Smith posted July 20, 2016"
@@ -1690,6 +1781,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-k",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -1698,13 +1795,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1742,10 +1833,10 @@
           "_name": "header3",
           "_anchor": "header3-1m",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#000000",
-            "showMeta": false
+            "bgColor": "#000000"
           },
           "title": "THE NEW MEDIEVAL PANORAMA",
           "meta": "By John Smith posted July 20, 2016"
@@ -1757,8 +1848,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "4",
             "paddingTop": "0",
             "paddingBottom": "0",
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -2060,14 +2158,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-p",
           "articleLayout": false,
@@ -2088,13 +2179,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -2164,6 +2255,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-z",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -2172,13 +2269,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2216,10 +2307,10 @@
           "_name": "header3",
           "_anchor": "header3-1o",
           "_params": {
+            "showMeta": false,
             "paddingTop": "6",
             "paddingBottom": 1,
-            "bgColor": "#00a7ff",
-            "showMeta": false
+            "bgColor": "#00a7ff"
           },
           "title": "HERBARIUM GRAPHICA",
           "meta": "By John Smith posted July 20, 2016"
@@ -2236,8 +2327,11 @@
           },
           "_params": {
             "autoplay": false,
+            "fullScreen": false,
             "paddingTop": "2",
             "paddingBottom": "0",
+            "showBullets": false,
+            "bgColor": "#000000",
             "timeout": "2",
             "slides": [
               {
@@ -2324,10 +2418,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               }
-            ],
-            "fullScreen": false,
-            "bgColor": "#000000",
-            "showBullets": false
+            ]
           },
           "_anchor": "slider3-10",
           "articleLayout": false
@@ -2347,13 +2438,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         }
@@ -2423,6 +2514,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-11",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -2431,13 +2528,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2472,10 +2563,10 @@
           "_name": "header3",
           "_anchor": "header3-1q",
           "_params": {
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": 1,
-            "bgColor": "#41a85f",
-            "showMeta": false
+            "bgColor": "#41a85f"
           },
           "title": "$$$$$$$$NEWSPAPER TRUMP$$$$$$$$",
           "meta": "By John Smith posted July 20, 2016"
@@ -2495,13 +2586,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         },
@@ -2512,8 +2603,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "4",
             "paddingTop": "1",
             "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Animated",
@@ -2675,14 +2773,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "4",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-1p",
           "articleLayout": false,
@@ -2754,6 +2845,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1v",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -2762,13 +2859,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2806,13 +2897,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         },
@@ -2823,8 +2914,15 @@
           ],
           "_name": "gallery4",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "6",
             "paddingTop": 0,
             "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": true,
             "images": [
               {
                 "tags": "Animated",
@@ -2916,14 +3014,7 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ],
-            "spacing": "6",
-            "showText": false,
-            "filter": true,
-            "bgColor": "#000000",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery4-1x",
           "articleLayout": false,
@@ -2995,6 +3086,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1y",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {
@@ -3003,13 +3100,7 @@
               "css": "'Open Sans', sans-serif"
             },
             "fontColor": "#ff0000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -3047,13 +3138,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Steven Deprez 2017<br><br>"
         },
@@ -3064,8 +3155,15 @@
           ],
           "_name": "gallery4",
           "_params": {
+            "showBullets": false,
+            "fullWidth": false,
+            "spacing": "6",
             "paddingTop": "4",
             "paddingBottom": "4",
+            "filterBgColor": false,
+            "bgColor": "#d14841",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Animated",
@@ -3087,14 +3185,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "6",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#d14841",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery4-20",
           "articleLayout": false,
